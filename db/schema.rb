@@ -13,12 +13,4 @@
 
 ActiveRecord::Schema.define(version: 20141123222726) do
 
-  create_table "outputs", force: true do |t|
-    t.string   "name"
-    t.string   "output"
-    t.integer  "input"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
 end

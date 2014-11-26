@@ -6,12 +6,12 @@ gem 'rails', '4.1.4'
 gem 'rails-api'
 
 gem 'spring', :group => :development
-
+gem 'mono_matrix'
 
 gem 'sqlite3'
 
 
-
+gem 'serialport', '~> 1.3.1'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 

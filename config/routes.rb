@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
-  resources :outputs, except: [:new, :edit]
+
+  get 'channel/:name' => 'channel#view'
+  patch 'channel/:name' => 'channel#update'
+  put 'channel/:name' => 'channel#update'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
