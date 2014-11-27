@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  get 'channel/' => 'channel#index'
   get 'channel/:name' => 'channel#view'
   patch 'channel/:name' => 'channel#update'
   put 'channel/:name' => 'channel#update'
