@@ -1,11 +1,9 @@
 Rails.application.routes.draw do
 
-  namespace :api do
-    get 'channel/' => 'channel#index'
-    get 'channel/:name' => 'channel#view'
-    patch 'channel/:name' => 'channel#update'
-    put 'channel/:name' => 'channel#update'
-  end
+  get 'api/channel/' => 'channel#index'
+  get 'api/channel/:name' => 'channel#view'
+  patch 'api/channel/:name' => 'channel#update'
+  put 'api/channel/:name' => 'channel#update'
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
