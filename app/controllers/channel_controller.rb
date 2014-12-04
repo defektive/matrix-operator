@@ -21,7 +21,7 @@ class ChannelController < ApplicationController
   # PATCH/PUT /outputs/1
   # PATCH/PUT /outputs/1.json
   def update
-    m = MonoMatrix.new "/dev/ttyUSB0"
+    m = MonoMatrix.new "/dev/ttyAMA0"
     m.switch params[:name], channel_params[:input].to_i
     head :no_content
   end
