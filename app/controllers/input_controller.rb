@@ -1,24 +1,33 @@
-class ChannelController < ApplicationController
+class InputController < ApplicationController
   # GET /outputs
   # GET /outputs.json
 
   def initialize ()
     super
 
-    @channels = [
+    @inputs = [
       {
-        channel: "A",
-        name: 'Living Room'
+        id: 1,
+        name: 'Cameras'
       },
       {
-        channel: "B",
-        name: 'Bedroom'
+        id: 2,
+        name: 'XBOX'
+      },
+      {
+        id: 3,
+        name: 'PS3'
+      },
+      {
+        id: 4,
+        name: 'Raspberry Pi'
       }
     ]
   end
 
+
   def index
-    render json: @channels
+    render json: @inputs
   end
 
   # GET /outputs/1

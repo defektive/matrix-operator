@@ -4,7 +4,11 @@ Rails.application.routes.draw do
   get 'api/channel/:name' => 'channel#view'
   patch 'api/channel/:name' => 'channel#update'
   put 'api/channel/:name' => 'channel#update'
-  
+
+
+
+  get 'api/input/' => 'input#index'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
