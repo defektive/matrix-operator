@@ -1,0 +1,3 @@
+[submodule "hdx-frontend"]
+	path = hdx-frontend
+	url = https://github.com/defektive/hdx-frontend
