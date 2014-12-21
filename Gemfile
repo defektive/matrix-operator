@@ -6,7 +6,7 @@ gem 'rails', '4.1.4'
 gem 'rails-api'
 
 gem 'spring', :group => :development
-gem 'mono_matrix'
+gem 'mono_matrix', '~> 1.0.0'
 gem 'rack-cors', :require => 'rack/cors'
 
 gem 'sqlite3'
