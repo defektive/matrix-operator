@@ -12,7 +12,7 @@ class ChannelController < ApplicationController
       },
       {
         channel: "B",
-        name: 'Bedroom'
+        name: 'Master Bedroom'
       }
     ]
   end

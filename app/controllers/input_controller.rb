@@ -8,11 +8,11 @@ class InputController < ApplicationController
     @inputs = [
       {
         id: 1,
-        name: 'Cameras'
+        name: 'Steam Box'
       },
       {
         id: 2,
-        name: 'XBOX'
+        name: 'Nexus Player'
       },
       {
         id: 3,
@@ -20,7 +20,7 @@ class InputController < ApplicationController
       },
       {
         id: 4,
-        name: 'Raspberry Pi'
+        name: '???'
       }
     ]
   end
