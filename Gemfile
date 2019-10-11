@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 
 
-gem 'rails', '4.1.4'
+gem 'rails', '5.0.0'
 
-gem 'rails-api'
+gem 'rails-api', '>= 0.3.1'
 
 gem 'spring', :group => :development
 gem 'mono_matrix', '~> 1.0.0'
-gem 'rack-cors', :require => 'rack/cors'
+gem 'rack-cors', '>= 0.4.1'
 
 gem 'sqlite3'
 
